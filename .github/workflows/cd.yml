@@ -1,0 +1,9 @@
+name: cd
+on:
+  push:
+    branches:
+      - main
+jobs:
+  vite:
+    uses: umts/workflows/.github/workflows/deploy-vite-app.yml@vite
+
