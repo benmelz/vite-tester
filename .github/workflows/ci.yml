@@ -5,4 +5,4 @@ on:
     branches:
       - main
  vite:
-    uses: umts/workflows/.github/workflows/integrate-vite-app.yml@10bf2e6aa51e9001fd0226fadc78af26bed712f9
+    uses: umts/shared-workflow-sandbox/.github/workflows/integrate-vite-app.yml@main
