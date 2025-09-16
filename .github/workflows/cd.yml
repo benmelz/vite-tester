@@ -5,5 +5,8 @@ on:
       - main
 jobs:
   vite:
+    permissions:
+      pages: write
+      id-token: write
     uses: umts/shared-workflow-sandbox/.github/workflows/deploy-vite-app.yml@main
 
